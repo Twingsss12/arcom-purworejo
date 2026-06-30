@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Barang - Admin Arcom</title>
+    <link rel="icon" sizes="100x100" type="image/png" href="assets/logo1.png">
+    <link rel="stylesheet" href="css/editproduk.css">
+  
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Arcom purworejo</div>
+        <div class="nav-links">
+            <a href="#" class="active">BARANG</a>
+            <a href="#">NOTA</a>
+            <a href="#">USER</a>
+            <a href="#">SERVICE</a>
+            <a href="#">TEKNISI</a>
+            <a href="#">RETURN</a>
+        </div>
+        <div class="nav-icons">
+            <span>⚙️</span>
+            <span>👤</span>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <h1 class="page-title">Edit Barang</h1>
+        
+        <form class="form-container">
+            <div class="form-grid">
+                <div class="form-left">
+                    <div class="form-group">
+                        <label for="nama">Nama Barang</label>
+                        <input type="text" id="nama" placeholder="Isi Nama Barang...">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="kategori">Kategori Barang</label>
+                        <input type="text" id="kategori" placeholder="Isi Kategori Barang...">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="stok">Stok Barang</label>
+                        <input type="number" id="stok" placeholder="Isi Stok Barang...">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="harga">Harga Barang</label>
+                        <input type="number" id="harga" placeholder="Isi Harga Barang...">
+                    </div>
+                </div>
+                
+                <div class="form-right">
+                    <div class="form-group">
+                        <label for="spesifikasi">Spesifikasi Barang</label>
+                        <textarea id="spesifikasi" placeholder="Isi Spesifikasi Barang..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="noseri">No.Seri Barang</label>
+                        <input type="text" id="noseri" placeholder="Isi Harga Barang...">
+                    </div>
+                </div>
+            </div>
+            
+            <a href="dashboardadmin.html" type="submit" class="submit-button">SUBMIT</a>
+
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota Pembelian - Arcom Purworejo</title>
+
+    <link rel="icon" sizes="100x100" type="image/png" href="assets/logo1.png">
+    <link rel="stylesheet" href="css/notaadmin.css">
+</head>
+<body>
+  
+        <nav class="navbar">
+            <div class="logo">Arcom purworejo</div>
+            <div class="nav-links">
+                <a href="dashboardadmin.html">BARANG</a>
+                <a href="notaadmin.html"  class="active">NOTA</a>
+                <a href="useradmin.html">USER</a>
+                <a href="serviceadmin.html">SERVICE</a>
+                <a href="teknisiadmin.html">TEKNISI</a>
+                <a href="returnadmin.html">RETURN</a>
+            </div>
+            <div class="nav-icons">
+                <span>⚙️</span>
+                <span>👤</span>
+            </div>
+        </nav>
+
+    <main>
+        <main class="main-content">
+            <div class="header">
+                <h1 class="title">Data Nota</h1>
+                <div class="user-info">
+                    <p>Hi, Abid Bima Fadhilah</p>
+                    <p>20/12/2024</p>
+                </div>
+            </div>
+    
+
+            <div class="search-bar">
+                <a href="tambahnota.html" class="add-button">+ TAMBAH NOTA</a>
+                <input type="search" class="search-input" placeholder="cari nota...">
+            </div>
+
+         
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>NO</th>
+                        <th>Kode Nota</th>
+                        <th>Nama Pelanggan</th>
+                        <th>Alamat</th>
+                        <th>Tanggal</th>
+                        <th>List Pembelian</th>
+                        <th>Harga</th>
+                        <th>Jumlah</th>
+                        <th>Total</th>
+                        <th>Kasir</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>INV-001</td>
+                        <td>Twings</td>
+                        <td>Bayan</td>
+                        <td>21/01/2025</td>
+                        <td>
+                            <ul>
+                                <li>Stik gaming</li>
+                                <li>Keyboard Fantech gaming</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <div>Rp 100.000</div>
+                            <div>Rp 100.000</div>
+                        </td>
+                        <td>
+                            <div>1</div>
+                            <div>2</div>
+                        </td>
+                        <td>
+                            <div>Rp 100.000</div>
+                            <div>Rp 200.000</div>
+                        </td>
+                        <td>Abid</td>
+                       <td class="action-buttons">
+                        <a href="editnota.html" class="edit-btn">✏️</a>
+                        <a href="" class="delete-btn">🗑️</a>
+                        <a href="" class="print-btn">🖨️</a>
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+           
+        
+            <div class="pagination">
+                <button class="page active">1</button>
+                <button class="page">2</button>
+                <button class="page">3</button>
+            </div>
+
+    </main>
+</body>
+</html>

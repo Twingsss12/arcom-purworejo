@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Barang - Admin Arcom Purworejo</title>
+    
+    <link rel="icon" sizes="100x100" type="image/png" href="assets/logo1.png">
+    <link rel="stylesheet" href="css/dashboardadmin.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Arcom purworejo</div>
+        <div class="nav-links">
+            <a href="dashboardadmin.html" class="active">BARANG</a>
+            <a href="notaadmin.html">NOTA</a>
+            <a href="useradmin.html">USER</a>
+            <a href="serviceadmin.html">SERVICE</a>
+            <a href="teknisiadmin.html">TEKNISI</a>
+            <a href="returnadmin.html">RETURN</a>
+        </div>
+        <div class="nav-icons">
+            <span>⚙️</span>
+            <span>👤</span>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="header">
+            <h1 class="title">Data Barang</h1>
+            <div class="user-info">
+                <p>Hi, Abid Bima Fadhilah</p>
+                <p>20/12/2024</p>
+            </div>
+        </div>
+
+        <div class="search-bar">
+            <a href="tambahproduk.html" class="add-button">+ TAMBAH BARANG</a>
+            <input type="search" class="search-input" placeholder="cari barang...">
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>NO</th>
+                    <th>Nama Barang</th>
+                    <th>No.Seri</th>
+                    <th>Kategori</th>
+                    <th>Gambar</th>
+                    <th>Spesifikasi</th>
+                    <th>Stok</th>
+                    <th>Harga</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Laptop Asus Tuf Gaming F-15</td>
+                    <td>Q1QWer234</td>
+                    <td>Laptop</td>
+                    <td><img src="assets/Laptop 1.png" alt="Laptop" width="50"></td>
+                    <td></td>
+                    <td>3</td>
+                    <td>Rp 15.000.000</td>
+                    <td class="action-buttons">
+                        <a href="editproduk.html" class="edit-btn">✏️</a>
+                        <a href="" class="delete-btn">🗑️</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="pagination">
+            <button class="page active">1</button>
+            <button class="page">2</button>
+            <button class="page">3</button>
+        </div>
+
+    </main>
+</body>
+</html>
