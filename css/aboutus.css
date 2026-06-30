@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+}
+
+.rcom-purworejo {
+    color: #ac2023;
+    text-align: left;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+   left: 128px;
+   top: 60px;
+}
+
+.logo img {
+    max-width: 240px;
+    height: auto;
+}
+.tagline {
+    white-space: nowrap;
+    font-size: 12px;
+    color: #000000;
+    margin-top: -25px;
+    margin-left: 35px;
+    font-family: 'poppins';
+    font: weight 500px;
+    font-style:italic
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+nav a:hover, nav a.active {
+    color: #ac2023;
+}
+
+.nav .aboutus {
+    color: #B22222;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.user-avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    height: calc(100vh - 150px);
+   
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 3rem;
+}
+.video{
+    position: relative;
+    height: 504px;
+    width: 1540px;
+    margin-top: -40px;
+
+}
+
+.hero-title {
+    background: rgba(172, 32, 35, 0.9);
+    color: white;
+    padding: 1rem 4rem;
+    border-radius: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ac2023;
+    color: white;
+    padding: 20px 50px;
+    margin-top: -68px;
+
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.phone-icon {
+    width: 13px;
+    height: 13px;
+}
+
+.company-name {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.address {
+    text-align: right;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .products {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .contact {
+        justify-content: center;
+    }
+
+    .address {
+        text-align: center;
+    }
+}

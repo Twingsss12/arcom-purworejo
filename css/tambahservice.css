@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+a {
+    text-decoration: none; /* Hilangkan garis bawah */
+    color: inherit; /* Agar warna teks tetap sesuai */
+  }
+  
+.navbar {
+    background-color: #B71C1C;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    padding-left: 700px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+}
+
+.nav-links a.active {
+    border-bottom: 2px solid white;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 1rem;
+    color: white;
+}
+
+.main-content {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-title {
+    color: #ac2023;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-container {
+    background-color: #ac2023;
+    border-radius: 10px;
+    padding: 2rem;
+    color: white;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 80%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    width: 100%;
+    height: 200px;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+
+.submit-button {
+    background-color: white;
+    color: #ac2023;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+}
+
+.submit-button:hover {
+    background-color: #f0f0f0;
+}
